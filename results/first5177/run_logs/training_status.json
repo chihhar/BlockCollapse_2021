@@ -1,0 +1,29 @@
+{
+    "BarAgent": {
+        "checkpoints": [
+            {
+                "steps": 39485,
+                "file_path": "results\\first5177\\BarAgent\\BarAgent-39485.onnx",
+                "reward": 0.0,
+                "creation_time": 1621239062.8960843,
+                "auxillary_file_paths": [
+                    "results\\first5177\\BarAgent\\BarAgent-39485.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 39485,
+            "file_path": "results\\first5177\\BarAgent.onnx",
+            "reward": 0.0,
+            "creation_time": 1621239062.8960843,
+            "auxillary_file_paths": [
+                "results\\first5177\\BarAgent\\BarAgent-39485.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.26.0",
+        "torch_version": "1.6.0"
+    }
+}

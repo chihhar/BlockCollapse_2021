@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1620746377",
+        "python_version": "3.6.13 |Anaconda, Inc.| (default, Mar 16 2021, 11:37:27) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\chich\\anaconda3\\envs\\ml-agents\\Scripts\\mlagents-learn BarAgent.yaml --run-id=firstl",
+        "mlagents_version": "0.26.0",
+        "mlagents_envs_version": "0.26.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.6.0",
+        "numpy_version": "1.19.2",
+        "end_time_seconds": "1620746432"
+    },
+    "total": 54.8585624,
+    "count": 1,
+    "self": 0.051180000000002224,
+    "children": {
+        "run_training.setup": {
+            "total": 0.803712,
+            "count": 1,
+            "self": 0.803712
+        },
+        "TrainerController.start_learning": {
+            "total": 54.0036704,
+            "count": 1,
+            "self": 0.004173799999996675,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 53.9994552,
+                    "count": 1,
+                    "self": 53.9994552
+                },
+                "trainer_threads": {
+                    "total": 5.39999999915608e-06,
+                    "count": 1,
+                    "self": 5.39999999915608e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 3.600000000147929e-05,
+                    "count": 1,
+                    "self": 3.600000000147929e-05
+                }
+            }
+        }
+    }
+}
